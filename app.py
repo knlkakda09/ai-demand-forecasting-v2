@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-streamlit==1.32.0
+
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.4.2
