@@ -5,9 +5,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from src.forecasting import DemandForecaster
-from src.sample_data import make_dataset
-from src.utils import DATA_PATH, MODEL_DIR, load_data
+streamlit==1.32.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+statsmodels==0.14.1
+plotly==5.20.0
+joblib==1.3.2
 
 st.set_page_config(page_title="AI Demand Forecasting", layout="wide")
 st.title("AI Demand Forecasting Workbench")
